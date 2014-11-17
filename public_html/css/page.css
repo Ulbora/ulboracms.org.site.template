@@ -53,6 +53,11 @@
 .addon{
     float: left;     
 }
+.twitter{
+    float: left;
+    text-align: right;
+    width: 100%;
+}
 
 @media screen and (min-width: 1200px){
     .article-wrapper{
@@ -74,6 +79,10 @@
     .addon{
         width: 40%;  
         margin: 0 0 0 30%;
+    }
+     .twitter{ 
+        padding: 1px 1px 0 0;
+        margin: 1% 0 0 0;
     }
 }
 
@@ -97,12 +106,20 @@
         width: 40%;  
         margin: 0 0 0 30%;
     }
+    .twitter{ 
+        padding: 1px 1px 0 0;
+        margin: 1% 0 0 0;
+    }
 }
 
 @media screen and (max-width: 800px){    
     .addon{
         width: 70%;  
         margin: 0 0 0 15%;
+    }
+    .twitter{ 
+        padding: 1px 1px 0 0;
+        margin: 1% 0 0 0;
     }
 }
 
@@ -127,5 +144,9 @@
     .addon{
         width: 100%;  
         margin: 0 0 0 0;
+    }
+    .twitter{ 
+        padding: 1px 1px 0 0;
+        margin: 1% 0 0 0;
     }
 }
